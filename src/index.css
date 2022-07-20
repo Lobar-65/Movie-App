@@ -1,0 +1,35 @@
+.main{
+    width: 98%;
+    height: 84vh;
+    margin-left: 13px;
+    background: rgba(135, 207, 235, 0.513);
+
+}
+.cardArea{
+    width: 100%;
+    height: 92%;
+    padding: 10px;
+    overflow-y:scroll;
+}
+.cardArea::-webkit-scrollbar{
+    width: 10px;
+}
+.cardArea::-webkit-scrollbar-track{
+    background-color: indianred;
+}
+.cardArea::-webkit-scrollbar-thumb{
+    background-color:pink;
+}
+.movieCard{
+    height: 350px;
+    width: 17%;
+    background-color: white;
+    margin: 10px;
+}
+.movieCard :hover{
+    box-shadow: 0px 0px 5px;
+}
+.movieCard img{
+    width: 100%;
+    height: 70%;
+}
